@@ -306,20 +306,16 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.clients-item {
+.clients-icon {
   padding: 16px 32px;
   border: 1px solid var(--brand-background-icon);
   border-radius: 4px;
-}
-.clients-icon {
   fill: var(--brand-background-icon);
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
 }
 .clients-icon:hover {
   fill: var(--brand-color-blue);
-}
-.clients-item:hover {
   border-color: var(--brand-color-blue);
 }
 
@@ -453,7 +449,7 @@ body {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
-.portfolio-item{
+.portfolio-item {
   cursor: pointer;
 }
 .portfolio-item:hover,
