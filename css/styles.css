@@ -91,6 +91,7 @@ body {
 .contact-header {
   cursor: pointer;
   display: flex;
+  align-items: center;
 }
 .mail,
 .tel {
@@ -111,16 +112,14 @@ body {
   margin-left: 30px;
 }
 .contact-mail-icon {
-  width: 16px;
-  height: 12px;
+  vertical-align: -1px;
   fill: currentColor;
 }
 .contact-mail-icon:hover {
   fill: var(--brand-background-blue);
 }
 .contact-tel-icon {
-  width: 16px;
-  height: 12px;
+  vertical-align: -3px;
   fill: currentColor;
 }
 .contact-tel-icon:hover {
@@ -198,16 +197,6 @@ body {
   text-transform: uppercase;
   color: var(--brand-color-black);
 }
-.column-iteam-color {
-  background-color: var(--brand-background-beige);
-  border-radius: 4px;
-}
-.column-icon {
-  background-color: var(--brand-background-beige);
-  margin: 25px 100px;
-  width: 70px;
-  height: 70px;
-}
 
 /* Czym się zajmujemy */
 
@@ -275,10 +264,12 @@ body {
 .team-mane {
   padding-bottom: 10px;
 }
+.team-social {
+  display: flex;
+  gap: 10px;
+}
 .team-icon {
   fill: var(--brand-background-icon);
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
 }
 .team-icon:hover {
@@ -311,8 +302,6 @@ body {
   border: 1px solid var(--brand-background-icon);
   border-radius: 4px;
   fill: var(--brand-background-icon);
-  width: 170px;
-  height: 92px;
 }
 .clients-icon:hover {
   fill: var(--brand-color-blue);
@@ -366,12 +355,14 @@ body {
   padding-top: 10px;
   padding-left: 70px;
 }
+.social-contact-item {
+  display: flex;
+  gap: 10px;
+}
 .contact-icon {
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--brand-color-white);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
 }
 .contact-icon:hover {
   background-color: var(--brand-background-blue);
