@@ -24,7 +24,6 @@ body {
   max-width: 1200px;
   padding: 0 15px;
   margin: auto;
-  /* background-color: var(--brand-color-white); */
 }
 * {
   margin: 0;
@@ -297,16 +296,21 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.clients-icon {
+.clients-item{
+  cursor: pointer;
   padding: 16px 32px;
   border: 1px solid var(--brand-background-icon);
   border-radius: 4px;
-  fill: var(--brand-background-icon);
+  color: var(--brand-background-icon);
 }
-.clients-icon:hover {
-  fill: var(--brand-color-blue);
-  border-color: var(--brand-color-blue);
+.clients-icon {
+  fill: currentColor;
 }
+.clients-item:hover{
+border: 1px solid var(--brand-color-blue);
+color: var(--brand-color-blue)
+}
+
 
 /* Stopka */
 
