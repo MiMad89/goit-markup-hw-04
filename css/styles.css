@@ -196,7 +196,7 @@ body {
   text-transform: uppercase;
   color: var(--brand-color-black);
 }
-.column-iteam-color{
+.column-iteam-color {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -305,7 +305,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.clients-item{
+.clients-item {
   cursor: pointer;
   padding: 16px 32px;
   border: 1px solid var(--brand-background-icon);
@@ -315,11 +315,10 @@ body {
 .clients-icon {
   fill: currentColor;
 }
-.clients-item:hover{
-border: 1px solid var(--brand-color-blue);
-color: var(--brand-color-blue)
+.clients-item:hover {
+  border: 1px solid var(--brand-color-blue);
+  color: var(--brand-color-blue);
 }
-
 
 /* Stopka */
 
