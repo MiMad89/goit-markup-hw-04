@@ -196,6 +196,15 @@ body {
   text-transform: uppercase;
   color: var(--brand-color-black);
 }
+.column-iteam-color{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  border: 1px solid var(--brand-background-beige);
+  border-radius: 4px;
+  background-color: var(--brand-background-beige);
+}
 
 /* Czym się zajmujemy */
 
@@ -356,8 +365,8 @@ color: var(--brand-color-blue)
   color: var(--brand-color-white);
 }
 .contact-social {
-  padding-top: 10px;
-  padding-left: 70px;
+  margin-top: 10px;
+  margin-left: 70px;
 }
 .social-contact-item {
   display: flex;
